@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      2020-04-21-Jekyll中关于Permalinks的设置规则
+title:      2020-04-21-Jekyll中关于永久链接(Permalinks)的设置规则
 subtitle:   
 date:       2020-04-21 10:13:00
 author:     BY 快乐小猪
@@ -12,7 +12,7 @@ tags:
     - 设置
 ---
 
-# 永久链接
+# 永久链接(Permalinks)
 
 Jekyll 支持以灵活的方式管理你网站的链接，你可以通过 [Configuration](http://jekyllcn.com/docs/configuration/) 或 [YAML 头信息](http://jekyllcn.com/docs/frontmatter/) 为每篇文章设置永久链接。你可以随心所欲地选择内建链接格式，或者自定义链接格式。默认配置为 `date`。
 
