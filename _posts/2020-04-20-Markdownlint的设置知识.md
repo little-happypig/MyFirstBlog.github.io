@@ -17,7 +17,7 @@ VS Code的插件Markdownlint经常会提示一些你觉得不用修改的错误�
 
 * 修改示例，例如你要关闭"MD025"提示，作如下修改：
 
-``` json
+```
 {
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
