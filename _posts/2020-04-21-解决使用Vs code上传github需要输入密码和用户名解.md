@@ -14,7 +14,8 @@ tags:
 # 解决使用VS Code上传Github每次都需要输入密码和用户名的问题
 
 使用下面的命令可以解决
- git config --global credential.helper store
+
+* git config --global credential.helper store
 
  命令行随后会提示输入用户名和密码，输入密码是不会有任何显示状态变化，输完直接回车就好。
 
