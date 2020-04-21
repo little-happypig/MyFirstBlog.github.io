@@ -5,7 +5,7 @@ subtitle:
 date:       2020-04-21 09:56:00
 author:     BY 快乐小猪
 header-img: img/post-bg-ios9-web.jpg
-catalog: true
+catalog: VS Code
 tags:
     - VS Code
     - Github

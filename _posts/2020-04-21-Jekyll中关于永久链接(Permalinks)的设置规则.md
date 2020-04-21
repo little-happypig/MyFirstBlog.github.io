@@ -5,7 +5,7 @@ subtitle:
 date:       2020-04-21 10:13:00
 author:     BY 快乐小猪
 header-img: img/post-bg-ios9-web.jpg
-catalog: true
+catalog: Jekyll
 tags:
     - Jekyll
     - Permalinks
