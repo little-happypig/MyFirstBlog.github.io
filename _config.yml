@@ -1,13 +1,13 @@
 # Site settings
-title: BY Blog
-SEOTitle: 快乐小猪的博客 | BY Blog
+title: 快乐小猪的博客 
+SEOTitle: 快乐小猪的博客 | HappyPig Blog
 header-img: img/post-bg-desk.jpg
 email: longq.gl@gmail.com
 description: "坚持才会有未来"
-keyword: "BY, BY Blog, 快乐小猪的博客, qiubaiying, 快乐小猪, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+keyword: "BY, BY Blog, 快乐小猪的博客, 快乐小猪, 快乐小猪, iOS, Apple, iPhone"
+url: "http://快乐小猪.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/快乐小猪/快乐小猪.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -18,12 +18,12 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
+# weibo_username:     快乐小猪
+zhihu_username:     快乐小猪
+github_username:    快乐小猪
 facebook_username:  baiying.qiu.7
 jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+#twitter_username:   快乐小猪
 
 
 
@@ -57,16 +57,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: 快乐小猪
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  repo: 快乐小猪.github.io    #仓库名称
+  owner: 快乐小猪    #github用户名
+  admin: 快乐小猪
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -78,7 +78,7 @@ ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: 快乐小猪.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 

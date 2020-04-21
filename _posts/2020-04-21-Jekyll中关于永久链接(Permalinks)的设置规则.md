@@ -18,7 +18,7 @@ Jekyll 支持以灵活的方式管理你网站的链接，你可以通过 [Confi
 
 永久链接的模板用以冒号为前缀的关键词标记动态内容，比如 `date` 代表 `/:categories/:year/:month/:day/:title.html`。
 
-## [模板变量](http://jekyllcn.com/docs/permalinks/#模板变量)
+## [模板变量](#模板变量)
 
 | 变量         | 描述                                                         |
 | ------------ | ------------------------------------------------------------ |
@@ -35,7 +35,7 @@ Jekyll 支持以灵活的方式管理你网站的链接，你可以通过 [Confi
 | `slug`       | 由文件的文件名中确定的　Slugified title（除数字和字母之外的字符们会被取代为连字符），可以被文件头信息中的 `slug` 覆盖。 |
 | `categories` | 文章类型。如果一篇文章有多个类型，Jekyll 会创建一个目录（例如，`/category1/category2`）。Jekyll 也可以自动解析 URLs 中的双斜线 `//`，所以如果当前文章没有设定类型，则忽略该项。 |
 
-## [内建永久链接类型](http://jekyllcn.com/docs/permalinks/#内建永久链接类型)
+## [内建永久链接类型](#内建永久链接类型)
 
 当你能够通过 [template variables](http://jekyllcn.com/docs/permalinks/#template-variables) 来指定一个自定义永久链接时，方便起见，Jekyll 还提供了下列的内建类型。
 
@@ -46,7 +46,7 @@ Jekyll 支持以灵活的方式管理你网站的链接，你可以通过 [Confi
 | `ordinal`    | `/:categories/:year/:y_day/:title.html`      |
 | `none`       | `/:categories/:title.html`                   |
 
-## [页面（Pages） 和集合（collections）](http://jekyllcn.com/docs/permalinks/#页面pages-和集合collections)
+## [页面（Pages）和集合（collections）](#页面（Pages）和集合（collections)
 
 `permalink` 配置用来指定博客的永久链接模板。页面和集合同样有它们自己的默认永久链接模板；页面的默认模板是 `/:path/:basename`，集合的默认模板是 /:collection/:path`。
 
@@ -54,7 +54,7 @@ Jekyll 支持以灵活的方式管理你网站的链接，你可以通过 [Confi
 
 单独页面或集合文件的永久链接总能够在页面或者文件的[头信息](http://jekyllcn.com/docs/frontmatter/)里重写覆盖。另外，给定的集合的永久链接能在[集合配置](http://jekyllcn.com/docs/collections/)中自定义设置。
 
-## [永久链接模板举例](http://jekyllcn.com/docs/permalinks/#永久链接模板举例)
+## [永久链接模板举例](#永久链接模板举例)
 
 比如文件名： `/2009-04-29-slap-chop.textile`
 
@@ -64,15 +64,15 @@ Jekyll 支持以灵活的方式管理你网站的链接，你可以通过 [Confi
 | `pretty`                                                     | `/2009/04/29/slap-chop/`                |
 | `/:month-:day-:year/:title.html`                             | `/04-29-2009/slap-chop.html`            |
 | `/blog/:year/:month/:day/:title`                             | `/blog/2009/04/29/slap-chop/index.html` |
-| `/:year/:month/:title`具体细节见于 [无扩展名链接（Extensionless permalinks）](http://jekyllcn.com/docs/permalinks/#extensionless-permalinks)。 | `/2009/04/slap-chop`                    |
+| `/:year/:month/:title`具体细节见于 [无扩展名链接（Extensionless permalinks）](#无扩展名永久链接)。 | `/2009/04/slap-chop`                    |
 
-## [无扩展名永久链接（Extensionless permalinks）](http://jekyllcn.com/docs/permalinks/#无扩展名永久链接extensionless-permalinks)
+## [无扩展名永久链接](#无扩展名永久链接)
 
 Jekyll 支持即不包含反斜杠也不包含文件扩展名的永久链接，但这需要网络服务端的额外支持才能正常工作。当使用无扩展名永久链接时，写到硬盘上的输出文件依然会保留正确的文件扩展名（典型的比如，`.html`），所以网络服务端必须能够 map 那些没有文件扩展名的文件的请求。
 
 无论 [GitHub Pages](http://jekyllcn.com/docs/github-pages/) 还是 Jekyll 内置的 WEBrick server 都能够正确处理这些请求，不需要任何额外工作。
 
-### [Apache](http://jekyllcn.com/docs/permalinks/#apache)
+### [Apache](#Apache)
 
 Apache 网络服务端对内容协商（content negotiation）有着非常广泛的支持，而且能够通过在你的 `httpd.conf` 或者 `.htaccess` 文件中设置 [multiviews](https://httpd.apache.org/docs/current/content-negotiation.html#multiviews) 选项来处理无扩展名的 URLs：
 
@@ -80,7 +80,7 @@ Apache 网络服务端对内容协商（content negotiation）有着非常广泛
 Options +MultiViews
 ```
 
-### [Nginx](http://jekyllcn.com/docs/permalinks/#nginx)
+### [Nginx](#Nginx)
 
 [try_files](http://nginx.org/en/docs/http/ngx_http_core_module.html#try_files) 指令允许你指定一个文件列表搜索，用来处理请求。如果请求的 URL 的精确匹配未找到的的话，下列配置会让 nginx 搜索含有 `.html` 扩展名的文件。
 
