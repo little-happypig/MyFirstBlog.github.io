@@ -24,8 +24,11 @@ VS Code的插件Markdownlint经常会提示一些你觉得不用修改的错误�
     "git.autofetch": true,
     "markdownlint.config": {
 
-            "MD025": false
+            "MD025": false,  
+            "MD040": false
     },
     "git.enableSmartCommit": true
 }
 ```
+
+多个项目用逗号分隔开。
