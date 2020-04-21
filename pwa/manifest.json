@@ -1,7 +1,7 @@
 {
-  "name": "BY Blog",
-  "short_name": "BY Blog",
-  "description": "A personal blog by engineer",
+  "name": "快乐小猪的博客",
+  "short_name": "HappyPig Blog",
+  "description": "A personal blog by HappyPig",
   "icons": [{
     "src": "icons/pwa_icon_128.png",
     "sizes": "128x128",
