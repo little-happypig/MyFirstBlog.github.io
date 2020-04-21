@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      2020-04-21-Jekyll中关于永久链接(Permalinks)的设置规则
+title:      Jekyll中关于永久链接(Permalinks)的设置规则
 subtitle:   
 date:       2020-04-21 10:13:00
 author:     BY 快乐小猪
