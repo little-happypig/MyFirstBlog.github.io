@@ -2,8 +2,8 @@
 layout:     post
 title:      Markdownlint规则详细介绍及自定义参数设置
 subtitle:   
-date:       2020-04-21
-author:     BY
+date:       2020-04-21 09:46:00
+author:     BY 快乐小猪
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:

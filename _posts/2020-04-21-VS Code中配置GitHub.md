@@ -1,4 +1,18 @@
-# vscode中配置Github
+---
+layout:     post
+title:      VS Code中配置Github
+subtitle:   
+date:       2020-04-21 08:26:00
+author:     BY 快乐小猪
+header-img: img/post-bg-ios9-web.jpg
+catalog: true
+tags:
+    - Markdown
+    - Rules
+    - 参数
+    - 设置
+---
+# VS Code中配置Github
 
 ## 1. 配置Git
 

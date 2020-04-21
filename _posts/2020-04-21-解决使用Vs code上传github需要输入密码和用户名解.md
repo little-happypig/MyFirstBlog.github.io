@@ -2,7 +2,7 @@
 layout:     post
 title:      解决使用VS Code上传Github每次都需要输入密码和用户名的问题
 subtitle:
-date:       2020-04-21
+date:       2020-04-21 09:56:00
 author:     BY 快乐小猪
 header-img: img/post-bg-ios9-web.jpg
 catalog: true

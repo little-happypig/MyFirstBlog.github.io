@@ -2,7 +2,7 @@
 layout:     post
 title:      Markdownlint的设置知识
 subtitle:
-date:       2020-04-21
+date:       2020-04-21 10:06:00
 author:     BY 快乐小猪
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
