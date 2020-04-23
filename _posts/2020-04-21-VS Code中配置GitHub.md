@@ -29,12 +29,14 @@ tags:
 
 首先在本地新建一个目录，这里git的操作要在这个新建的目录下操作（在这个文件夹中右键选择git Bash here），在Git Bash中依次运行下列代码
 
-* echo "# vscode-demo" >> README.md  
-* git init  
-* git add README.md  
-* git commit -m "first commit"  
-* git remote add origin git@github.com:plusczh/vscode-demo.git  
-* git push -u origin master  
+```dos
+echo "# vscode-demo" >> README.md  
+git init  
+git add README.md  
+git commit -m "first commit"  
+git remote add origin git@github.com:plusczh/vscode-demo.git  
+git push -u origin master  
+```
 
 如果在输出最后一行报错 fatal:Could not read from remote repository  
 则需要设置SSH key  
