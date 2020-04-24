@@ -17,9 +17,10 @@ tags:
 ## 1. 配置Git
 
 安装最新版git后，命令行输入
-
-* git config --global user.name 你的用户名  
+```dos
+git config --global user.name 你的用户名  
 * git config --global user.email 你的邮箱
+```
 
 ## 2. Github设置
 
